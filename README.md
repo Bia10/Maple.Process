@@ -21,7 +21,7 @@ if (!OperatingSystem.IsWindows())
     return;
 
 // Try to attach to a process by name; returns false if not running.
-bool attached = ProcessHandle.TryAttach("maple-not-running", out ProcessHandle? handle);
+bool attached = ProcessHandle.TryAttach("Maplestory.exe", out ProcessHandle? handle);
 handle?.Dispose();
 _ = attached;
 ```
@@ -52,7 +52,7 @@ if (!OperatingSystem.IsWindows())
     return;
 
 // Try to attach to a process by name; returns false if not running.
-bool attached = ProcessHandle.TryAttach("maple-not-running", out ProcessHandle? handle);
+bool attached = ProcessHandle.TryAttach("Maplestory.exe", out ProcessHandle? handle);
 handle?.Dispose();
 _ = attached;
 ```
