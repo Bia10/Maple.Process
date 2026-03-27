@@ -1,9 +1,10 @@
-using System.Runtime.InteropServices;
+﻿using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 
 namespace Maple.Process.Test;
 
 [SupportedOSPlatform("windows")]
+[WindowsOnly]
 public sealed partial class WindowsProcessMemoryTests
 {
     [Test]

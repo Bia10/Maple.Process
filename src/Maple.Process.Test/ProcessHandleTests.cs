@@ -1,9 +1,10 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Runtime.Versioning;
 
 namespace Maple.Process.Test;
 
 [SupportedOSPlatform("windows")]
+[WindowsOnly]
 public sealed class ProcessHandleTests
 {
     [Test]
