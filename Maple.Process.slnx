@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="src/Maple.Process/Maple.Process.csproj" />
+  <Project Path="src/Maple.Process.Test/Maple.Process.Test.csproj" />
+  <Project Path="src/Maple.Process.DocTest/Maple.Process.DocTest.csproj" />
+  <Project Path="src/Maple.Process.Benchmarks/Maple.Process.Benchmarks.csproj" />
+  <Project Path="src/Maple.Process.ComparisonBenchmarks/Maple.Process.ComparisonBenchmarks.csproj" />
+  <Project Path="src/Maple.Process.Tester/Maple.Process.Tester.csproj" />
+</Solution>
