@@ -7,7 +7,7 @@
     <IsAotCompatible>true</IsAotCompatible>
     <EnableTrimAnalyzer>true</EnableTrimAnalyzer>
     <EnableAOTAnalyzer>true</EnableAOTAnalyzer>
-    <Description>Windows process attachment and raw remote memory primitives for Maple client tooling. Cross-platform, trimmable and AOT/NativeAOT compatible.</Description>
+    <Description>Windows process attachment and raw remote memory primitives for Maple client tooling. Windows-only, trimmable and AOT/NativeAOT compatible.</Description>
     <PackageId>Maple.Process</PackageId>
     <PackageTags>maplestory;game-reverse-engineering;process-memory;maple-re;performance;dotnet</PackageTags>
     <PackageIcon>Icon.png</PackageIcon>

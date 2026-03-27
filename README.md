@@ -7,7 +7,7 @@
 [![Nuget](https://img.shields.io/nuget/v/Maple.Process?color=purple)](https://www.nuget.org/packages/Maple.Process/)
 [![License](https://img.shields.io/github/license/Bia10/Maple.Process)](https://github.com/Bia10/Maple.Process/blob/main/LICENSE)
 
-Windows process attachment and raw remote memory primitives for Maple client tooling. Cross-platform, trimmable and AOT/NativeAOT compatible.
+Windows process attachment and raw remote memory primitives for Maple client tooling. **Windows-only** — trimmable and AOT/NativeAOT compatible.
 
 ⭐ Please star this project if you like it. ⭐
 

@@ -56,13 +56,14 @@ jobs:
         run: dotnet build -c ${{ matrix.configuration }} --no-restore
 
       - name: Test (Maple.Process.Test)
+        if: runner.os == 'Windows'
         run: dotnet run --project src/Maple.Process.Test/Maple.Process.Test.csproj -c ${{ matrix.configuration }} --no-build -- --no-ansi
 
       - name: Test (Maple.Process.DocTest)
         run: dotnet run --project src/Maple.Process.DocTest/Maple.Process.DocTest.csproj -c ${{ matrix.configuration }} --no-build -- --no-ansi
 
   coverage:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Harden Runner
         uses: step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594 # v2.16.0
